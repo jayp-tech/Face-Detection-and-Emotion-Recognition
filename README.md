@@ -16,6 +16,12 @@ To run this project, follow the steps below:
 - Upload the dataset.zip file in the same directory as the notebook file/ working directory.
 - Open the notebook and run the cells in order.
 
+
+## Results
+
+
+
+
 ## Note
 
 This project requires an internet connection to download the required libraries and dataset.
@@ -25,7 +31,6 @@ The training process may take several minutes or even hours depending on your ha
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 
-## Results
 
 ##  Author
 Jay Patel
