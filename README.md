@@ -19,6 +19,49 @@ To run this project, follow the steps below:
 
 ## Results
 
+Results Analysis
+
+On fine tuning various parameters, We observed that the best overall validation accuracy of the model achieved after 50 epochs and 455 steps in each epoch is 86.89% whereas the validation accuracy achieved is 85.7%.
+The image below shows the accuracy achieved at the end of these 50 epochs.
+
+
+
+Below listed are the results of various images captured live, and the model detects the face from an image and classifies the image into an emotion with the highest probability. Below listed are some of the best results fetched.
+
+
+
+
+
+
+
+
+
+
+Fig 5.1 Model shows the happy emotion with 80% confidence
+
+
+
+
+
+
+
+
+
+
+
+Fig 5.2 Model shows the neutral emotion with 99.99% confidence
+
+
+
+
+
+
+
+
+
+
+Fig 5.3 Model shows sad emotion with 78.99% confidence
+
 
 
 
@@ -33,7 +76,11 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 
 ##  Author
-Jay Patel
+- Jay Patel
+- Mohammed Contractor
+- Juhi Patel
+- Tushar Rajdev
+
 
 
 
