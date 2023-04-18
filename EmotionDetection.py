@@ -87,6 +87,13 @@ Model_info = Model.fit_generator(
         validation_data=validation_generator,
         validation_steps=90)
 
+"""Saving the model Summary"""
+Model.summary()
+from tensorflow.keras.utils import plot_model
+from IPython.display import Image
+plot_model(Model, to_file='convnet.png', show_shapes=True,show_layer_names=True)
+Image(filename='convnet.png')
+
 """Saving the model"""
 Model.save('model.h5')
 
@@ -218,5 +225,3 @@ y_pred = np.argmax(emotion_model.predict(validation_generator), axis=-1)
 cm = confusion_matrix(y_true, y_pred)
 # Print the confusion matrix
 print(cm)
-
-
